@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export OMP_TARGET_OFFLOAD=MANDATORY
+
 # nvhpc
 module purge
 module load unstable gcc nvhpc cuda

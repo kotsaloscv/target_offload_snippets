@@ -1,4 +1,6 @@
-rm test*_ *.o *.a
+#!/bin/bash
+
+export OMP_TARGET_OFFLOAD=MANDATORY
 
 # clang
 module purge

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export OMP_TARGET_OFFLOAD=MANDATORY
+
 module purge
 module load unstable intel-oneapi-compilers
 

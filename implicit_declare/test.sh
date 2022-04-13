@@ -24,7 +24,7 @@ module purge
 module load unstable intel-oneapi-compilers
 
 CXX=icpx
-CXXFLAGS="-qopenmp -fopenmp-targets=spir64 -g -O2"
+CXXFLAGS="-qopenmp -fopenmp-targets=spir64"
 ${CXX} ${CXXFLAGS} implicit_omp_declare_target.cpp
 if [ -f a.out ] ; then ./a.out; echo $?; fi
 
