@@ -1,8 +1,3 @@
-// https://forums.developer.nvidia.com/t/incorrect-gpu-results-with-pragma-acc-atomic-capture/187962
-
-// module load unstable gcc nvhpc cuda
-// nvc++ -acc -Wall -pedantic -o example openacc_atomic_incorrect_results.cpp
-
 #include <algorithm>
 #include <array>
 #include <cassert>

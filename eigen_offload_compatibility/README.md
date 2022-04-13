@@ -1,4 +1,4 @@
-# eigen_openacc_compatibility
+# eigen_offload_compatibility
 
 To test:
 
