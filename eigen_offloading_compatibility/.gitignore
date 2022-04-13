@@ -1,0 +1,4 @@
+
+eigen/
+*build*/
+.vscode/
