@@ -9,6 +9,7 @@ Various code snippets with openmp/openacc offloading
  openacc_shared_lib:example1 | IN PROGRESS | - | -  
  openacc_shared_lib:example2 | IN PROGRESS | - | -  
  openacc_shared_lib:example3 | SOLVED | - | -  
+ openacc_shared_lib:example4 | SOLVED | - | -  
  openmp_atomics | BUG REPORT | OK | OK  
  openmp_breaks_openacc_code | SOLVED with -cuda flag | OK | OK  
  openmp_clause_ordering | SOLVED with latest NVHPC | OK | BUG REPORT  
